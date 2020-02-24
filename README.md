@@ -14,14 +14,15 @@ A pretty simplified docker-compose work-flow that sets up a LEMP network of cont
 
 ## Folders structure
 <pre>
-├── mysql
-│   └── [MySQL Database Binaries]
-├── nginx
-│   └── default.conf
-├── php
-│   └── php.ini
-└── src
-    └── [Laravel Project]
+├── src
+│   └── [Laravel Project]
+└── volumes
+    ├── mysql
+    │   └── [MySQL Database Binaries]
+    ├── nginx
+    │   └── default.conf
+    └── php
+        └── php.ini
 </pre>
 
 ## Usage
